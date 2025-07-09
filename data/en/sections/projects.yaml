@@ -21,6 +21,14 @@ buttons:
 
 # your projects
 projects:
+- name: Bigdata-Line-Bot
+  logo: /images/sections/projects/bigdata.png
+  role: Contributor
+  timeline: "Jan 2019 - Present"
+  repo: https://github.com/bigdatantue/Bigdata-Line-Bot
+  tags: ["academic","hugo","theme","professional"]
+
+
 - name: Kubernetes
   logo: /images/sections/projects/kubernetes.png
   role: Contributor
@@ -63,3 +71,4 @@ projects:
   repo: https://github.com/hossainemruz/toha
   summary: A Hugo theme for personal portfolio.
   tags: ["hobby","hugo","theme","professional"]
+

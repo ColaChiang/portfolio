@@ -1,0 +1,119 @@
+section:
+  name: Certifications
+  id: certifications
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+certifications:
+- name: Microsoft Certified Azure AI Fundamentals (AI-900)
+  url: https://learn.microsoft.com/en-us/users/colachiang/credentials/cb90041df189400a?ref=https%3A%2F%2Fwww.linkedin.com%2F
+  issuer: Microsoft
+  issueDate: June 2025
+  certificateId: CB90041DF189400A
+  skills:
+    - Azure
+    - AI Fundamentals
+    - Microsoft
+  logo: /images/sections/certifications/Microsoft_Logo.png
+  certificateImage: /images/sections/certifications/ai900.jpg
+
+- name: Foundational Literacy in Generative AI
+  url: https://corelab.iiiedu.org.tw/program/certificate/1129/cola9345@gmail.com
+  issuer: Institute for Information Industry
+  issueDate: June 2025
+  certificateId: 114E00613
+  skills:
+    - Generative AI
+  logo: /images/sections/certifications/information.png
+  certificateImage: /images/sections/certifications/aicourse.jpg
+
+- name: AWS Certified Cloud Practitioner (CLF-C02)
+  url: https://www.credly.com/badges/131901d4-3d53-45c5-9c6f-41de245b750b/public_url
+  issuer: Amazon Web Services (AWS)
+  issueDate: May 2025
+  expiryDate: May 2028
+  certificateId: fe2b395b965b41b4acaf2424fcd4a21c
+  skills:
+    - Cloud Computing
+    - AWS Cloud
+    - Cloud Services
+    - Amazon Web Services (AWS)
+  logo: /images/sections/certifications/aws.png
+  certificateImage: /images/sections/certifications/AWSc.jpg
+
+- name: Google Cloud Program - Digital Talent Exploration Program
+  url: https://growonairtw.withgoogle.com/events/digitaleducation?tab=google-cloud
+  issuer: Google
+  issueDate: September 2024
+  certificateId: 2024kOpcloU2d173b6c19a3ab7debf2f973b3c96e8b
+  skills:
+    - Google Cloud Platform (GCP)
+    - Generative AI Tools
+    - Large Language Models (LLM)
+  logo: /images/sections/certifications/GCPicon.png
+  certificateImage: /images/sections/certifications/Google_Cloud.png
+
+- name: React Native Course
+  url: https://coursera.org/verify/F6BOSH7V9T39
+  issuer: Meta
+  issueDate: August 2024
+  skills:
+    - React Native
+    - React.js
+  logo: /images/sections/certifications/metalogo.png
+  certificateImage: /images/sections/certifications/react.jpg
+
+- name: Foundations of Business Intelligence
+  url: https://www.coursera.org/account/accomplishments/records/XEEDSUF9Y5J8
+  issuer: Google
+  issueDate: July 2024
+  certificateId: XEEDSUF9Y5J8
+  skills:
+    - Business Intelligence
+  logo: /images/sections/certifications/google.png
+  certificateImage: /images/sections/certifications/business.jpg
+
+- name: Prompt Design in Vertex AI Skill Badge
+  url: https://www.credly.com/badges/be7471da-5d67-4f28-8a8b-a7269d3ddd89/linked_in_profile
+  issuer: Google
+  issueDate: July 2024
+  skills:
+    - Prompt Engineering
+    - Generative AI Tools
+    - Large Language Models (LLM)
+  logo: /images/sections/certifications/GCPicon.png
+  certificateImage: /images/sections/certifications/Vertex.jpg
+
+- name: Cybersecurity Specialist Program – Completion Certificate
+  url: https://www.gss.com.tw/scw-tournament-since-2022
+  issuer: Galaxy Software Services
+  issueDate: June 2024
+  skills:
+    - Cybersecurity
+    - Vulnerability Identification
+    - Threat Remediation
+    - Security Awareness
+  logo: /images/sections/certifications/gss.png
+  certificateImage: /images/sections/certifications/cybersecurity.jpg
+
+- name: AI Literacy Primer Course – GenAI Pioneer Workshop
+  url: https://aiacademy.tw/
+  issuer: Taiwan AI Academy
+  issueDate: June 2024
+  certificateId: GENA0400
+  skills:
+    - Generative AI
+  logo: /images/sections/certifications/AIA.png
+  certificateImage: /images/sections/certifications/AIpre.jpg
+
+- name: Computer Programming
+  url: https://www.coursera.org/account/accomplishments/records/QS2CWALBF989
+  issuer: National Taiwan University
+  issueDate: April 2022
+  certificateId: QS2CWALBF989
+  skills:
+    - C
+    - Computer Programming
+  logo: /images/sections/certifications/NTUlogo.png
+  certificateImage: /images/sections/certifications/programming.jpg
