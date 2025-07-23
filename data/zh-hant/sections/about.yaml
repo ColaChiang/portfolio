@@ -1,6 +1,6 @@
 # section information
 section:
-  name: About
+  name: 關於我
   id: about
   enable: true
   weight: 1
@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: AI & Data Science Student | Seeking Internship Opportunities
+designation: AI & 資料科學學生｜正在尋找實習的機會！
 # # your company information
 # company:
 #   name: Example Co.
@@ -19,7 +19,10 @@ designation: AI & Data Science Student | Seeking Internship Opportunities
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a senior student at National Taipei University of Education, majoring in Mathematics and Information Education with a focus on AI and Educational Technology. Passionate about learning and research, I have consistently achieved top academic rankings, placing first in my department four times. In addition to my studies, I have experience in student leadership, event organization, and teamwork through roles in the student association, volleyball team, and university service positions. I am eager to apply my skills and enthusiasm for AI, data science, and educational technology to real-world challenges and professional opportunities.'
+summary: '  我是國立臺北教育大學數學暨資訊教育學系的應屆畢業生，專注於人工智慧與教育科技領域的研究與實作。
+  在學期間表現優異，曾四度獲得系上第一名，對學習與研究充滿熱忱。
+  除了課業，我也積極參與系學會、排球校隊與各類服務活動，具備良好的團隊合作與領導能力。
+  我期待能將AI、資料科學與教育科技的熱情與技能，應用於真實世界的挑戰與專業工作之中。'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

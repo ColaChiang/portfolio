@@ -1,0 +1,24 @@
+course_name:
+  other: 課程名稱
+credits:
+  other: 學分數
+score:
+  other: 成績
+grade:
+  other: 等第
+show_more:
+  other: 顯示更多課程
+show_less:
+  other: 顯示較少課程
+taken_courses:
+  other: 已修課程
+extracurricular_activities:
+  other: 課外活動
+publications:
+  other: 發表成果
+out_of:
+  other: 滿分
+gradingScale:
+  other: 國北教大GPA計算標準
+home:
+  other: 首頁

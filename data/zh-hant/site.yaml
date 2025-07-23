@@ -22,7 +22,7 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: Kaylen's Blog
+  title: Kele's Blog
   type: website
   description: Portfolio and personal blog of Ke-Le Chiang.
   image: images/author/55.jpg

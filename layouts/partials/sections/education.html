@@ -100,10 +100,12 @@
                                 <table>
                                     <thead>
                                         <tr>
-                                            <th>Course Name</th>
-                                            <th>Credits</th>
-                                            <th>Score</th>
-                                            <th>Grade</th>
+                                        <th>{{ i18n "course_name" }}</th>
+                                        <th>{{ i18n "credits" }}</th>
+                                        <th>{{ i18n "score" }}</th>
+                                        <th>{{ i18n "grade" }}</th>
+                                    </tr>
+                                    </thead>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -136,7 +138,7 @@
                                 {{ end }}
 
                                 {{ if .takenCourses.gradingScale }}
-                                <h6 class="text-heading">GPA Grading Scale in NTUE:</h6>
+                                <h6 class="text-heading">{{ i18n "gradingScale" }}</h6>
                                 <div class="grading-scale">
                                     {{ .takenCourses.gradingScale | markdownify }}
                                 </div>

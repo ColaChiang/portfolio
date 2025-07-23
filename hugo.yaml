@@ -25,10 +25,10 @@ languages:
     languageName: English
     title: "Kaylen's Blog"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
+  zh-hant:
+    languageCode: zh-hant
+    languageName: 繁體中文
+    title: "哿樂的部落格"
     weight: 2
 # default language for the content
 defaultContentLanguage: en
@@ -199,9 +199,9 @@ params:
     flags:
       enable: true
       # # If you want to use different country flag for a language, specify them here.
-      # flagOverwrites:
-      #   - languageCode: en
-      #     countryCode: us
+      flagOverwrites:
+        - languageCode: zh-hant
+          countryCode: tw
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:
