@@ -130,28 +130,29 @@
       cursor: pointer;
     }
 
-
-    /* ✅ 響應式修正：小螢幕時改為垂直排列 */
+    /* ✅ 響應式手機版修正 */
     @media (max-width: 576px) {
       .certification-item {
         flex-direction: column;
-        align-items: flex-start;
       }
+
       .certification-left,
       .certification-right {
         flex: 1 1 100%;
-        min-width: 0;
         padding-right: 0;
+        margin-top: 12px;
         text-align: left;
+      }
+
+      .certificate-thumbnail-container {
         margin-top: 12px;
       }
-      .certificate-thumbnail-container {
-        width: 100%;
-        margin-top: 12px;
+
+      .certificate-thumbnail-container img {
+        object-fit: contain;
       }
     }
   </style>
-
 
   <div class="container">
     <div class="certification-list">
@@ -189,9 +190,9 @@
           <div class="certification-right">
             {{ $certImage := resources.Get .certificateImage }}
             {{ if $certImage }}
-            <div class="certificate-thumbnail-container" onclick="openLightbox('{{ $certImage.RelPermalink }}')">
-              <img src="{{ $certImage.RelPermalink }}" alt="Certificate Image">
-            </div>
+              <div class="certificate-thumbnail-container" onclick="openLightbox('{{ $certImage.RelPermalink }}')">
+                <img src="{{ $certImage.RelPermalink }}" alt="Certificate Image">
+              </div>
             {{ end }}
           </div>
         </div>
