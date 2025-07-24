@@ -10,32 +10,42 @@
     </h1>
   {{ end }}
 
-  <!-- 🌟 Inline CSS Block -->
   <style>
     .certification-list {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+      grid-template-columns: 1fr;
       gap: 24px;
       max-width: 1200px;
       margin: 0 auto;
+      padding: 0 16px;
+      box-sizing: border-box;
+    }
+
+    @media (min-width: 768px) {
+      .certification-list {
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+      }
     }
 
     .certification-item {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
       align-items: center;
       border: 1px solid #ddd;
       border-radius: 8px;
       padding: 16px;
       margin-bottom: 24px;
-      display: flex;
-      flex-wrap: wrap;
       background-color: #fff;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      box-sizing: border-box;
     }
 
     .certification-left {
       flex: 1 1 60%;
-      min-width: 250px;
       padding-right: 16px;
+      min-width: 0;
+      word-break: break-word;
     }
 
     .certification-logo {
@@ -70,8 +80,8 @@
     }
 
     .certification-right {
-      flex: 1 1 20%;
-      min-width: 150px;
+      flex: 1 1 40%;
+      min-width: 0;
       text-align: center;
     }
 
@@ -85,6 +95,7 @@
       border: 1px solid #ccc;
       cursor: pointer;
       transition: transform 0.2s;
+      box-sizing: border-box;
     }
 
     .certificate-thumbnail-container:hover {
@@ -93,20 +104,22 @@
 
     .certificate-thumbnail-container img {
       position: absolute;
-      top: 0; left: 0;
+      top: 0;
+      left: 0;
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
 
-    /* Lightbox */
     .lightbox {
       display: none;
       position: fixed;
       z-index: 999;
-      left: 0; top: 0;
-      width: 100%; height: 100%;
-      background-color: rgba(0,0,0,0.8);
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
     }
 
     .lightbox-content {
@@ -130,26 +143,40 @@
       cursor: pointer;
     }
 
-    /* ✅ 響應式手機版修正 */
+    /* 🌐 手機版優化 */
     @media (max-width: 576px) {
       .certification-item {
         flex-direction: column;
+        align-items: flex-start;
       }
 
       .certification-left,
       .certification-right {
-        flex: 1 1 100%;
+        flex: 1 1 auto;
+        min-width: 0;
+        width: 100%;
         padding-right: 0;
         margin-top: 12px;
         text-align: left;
       }
 
       .certificate-thumbnail-container {
+        width: 100%;
+        max-width: 150px;
         margin-top: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
       }
 
       .certificate-thumbnail-container img {
         object-fit: contain;
+      }
+
+      .certification-details {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        word-break: break-word;
       }
     }
   </style>
@@ -200,22 +227,9 @@
     </div>
   </div>
 
-  <!-- 🌟 Lightbox modal -->
   <div id="lightbox" class="lightbox" onclick="closeLightbox()">
     <div class="lightbox-content">
       <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
       <img id="lightbox-img" src="" alt="Certificate Full View">
     </div>
-  </div>
-
-  <!-- 🌟 Lightbox JS -->
-  <script>
-    function openLightbox(src) {
-      document.getElementById('lightbox-img').src = src;
-      document.getElementById('lightbox').style.display = 'block';
-    }
-    function closeLightbox() {
-      document.getElementById('lightbox').style.display = 'none';
-    }
-  </script>
-</div>
+  <
